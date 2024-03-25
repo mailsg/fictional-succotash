@@ -7,8 +7,8 @@ const FeaturedProducts = ({ type }) => {
     const data = [
         {
             id: 1,
-            img: 'https://www.pexels.com/photo/redhead-woman-posing-in-building-entrance-11569311/',
-            img2: 'https://www.pexels.com/photo/a-woman-in-white-sleeveless-shirt-sitting-on-a-chair-8882143/',
+            img: 'https://images.pexels.com/photos/11569311/pexels-photo-11569311.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+            img2: 'https://images.pexels.com/photos/8882143/pexels-photo-8882143.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
             title: 'Long Sleeve Graphic t-shirt',
             isNew: true,
             oldPrice: 19,
@@ -16,27 +16,28 @@ const FeaturedProducts = ({ type }) => {
         },
         {
             id: 2,
-            img: 'https://www.pexels.com/photo/man-wearing-brown-coat-840916/',
+            img: 'https://images.pexels.com/photos/840916/pexels-photo-840916.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+            img2: 'https://images.pexels.com/photos/8882143/pexels-photo-8882143.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
             title: 'Coat',
             isNew: true,
-            oldPrice: 19,
-            newPrice: 12,
+            oldPrice: 25,
+            newPrice: 15,
         },
         {
             id: 3,
-            img: 'https://www.pexels.com/photo/woman-wearing-skirt-holding-her-shoes-601316/',
+            img: 'https://images.pexels.com/photos/601316/pexels-photo-601316.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
             title: 'Skirt',
             isNew: false,
-            oldPrice: 19,
-            newPrice: 12,
+            oldPrice: 12,
+            newPrice: 8,
         },
         {
             id: 4,
-            img: 'https://www.pexels.com/photo/beige-and-black-hat-near-swimming-pool-984619/',
+            img: 'https://images.pexels.com/photos/984619/pexels-photo-984619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
             title: 'Hat',
             isNew: false,
             oldPrice: 19,
-            newPrice: 12,
+            newPrice: 15,
         },
 
 ]
